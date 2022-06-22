@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body{
+        @apply bg-gray-100
+    }
+}
+
+@layer components {
+    /* search component */
+  .search_div {
+    @apply flex justify-center items-center text-center py-5;
+  }
+  .form_div {
+    @apply space-y-6;
+  }
+  .input_style {
+    @apply border-b-2 border-primary focus:outline-none p-2 lg:w-80 w-60;
+  }
+}
